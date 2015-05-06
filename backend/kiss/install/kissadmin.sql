@@ -36,8 +36,4 @@ INSERT INTO `files` (`id`, `uniqid`, `path`, `description`, `access`, `title`, `
 (37,	'css-framework',	'css/framework.css',	'',	'',	'',	'text/css',	0,	0,	1,	'2015-04-27 16:14:19',	'0000-00-00 00:00:00'),
 (39,	'test-file',	'css/test.css',	'',	'',	'ccc',	'text/css',	0,	0,	1,	'2015-05-03 21:53:31',	'0000-00-00 00:00:00');
 
-INSERT INTO `options` (`id`, `name`, `value`) VALUES
-(1,	'groups',	'{\"0\":\"Guests\",\"1\":\"Pending\",\"2\":\"Members\",\"4\":\"Moderators\",\"5\":\"Administrators\"}');
-
-
 -- 2015-05-06 14:56:57
