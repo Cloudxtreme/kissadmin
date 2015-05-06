@@ -1,0 +1,36 @@
+/* framework */
+@import url('/x/css-framework');
+
+/* body */
+body{background:#444d58;font-size:13px;margin-top:40px;}
+a{color:#252525;}
+
+/* layout */
+.container {width:400px;padding:15px;}
+.button{border:0;}
+header{text-align:center;}
+header a{color:#fff;font-family:'Open Sans Bold';text-transform:uppercase;}
+footer{text-align:center;color:#fff;}
+
+/* forms */
+::-webkit-input-placeholder {color:#a2b2c9;}
+::-moz-placeholder {color:#a2b2c9;opacity:1;}
+:-ms-input-placeholder {color:#a2b2c9;}
+form{background-color:#eeeff1;border-radius:5px;}
+form{padding:25px;}
+form input[type="email"],input[type="text"],input[type="password"]{background:#dbe2ea;border:0;color:#a2b2c9;margin-bottom:10px;}
+form p{margin-bottom:10px;}
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {margin-top:5px;}
+
+/* responsive */
+@media (max-width:400px) {
+/* body */
+body{margin-top:20px;}
+
+/* layout */
+.container{width:auto;}
+}
