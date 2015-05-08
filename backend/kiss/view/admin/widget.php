@@ -8,7 +8,7 @@ class Widget {
 		// build nav
 		$ret = '';
 		foreach ($config['navbar'] as $path => $item) {
-			$ret.= '<li'.((Router::getPath() == $path || Router::parsePath()[1] == $path) ? $ret.= ' class="active"' : '');
+			$ret.= '<li'.((Router::getPath() == $path || Router::parsePath()[1] == $path) ? ' class="active"' : '');
 			$ret.= '><a href="admin/'.$path.'">'.$item['title'].'</a></li>';
 		}
 		return $ret;

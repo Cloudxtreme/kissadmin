@@ -1,0 +1,15 @@
+/* framework */
+@import url('/x/css-framework');
+
+/* body */
+body{margin:25px;background:url(/x/bg-ticks);font-family:'Raleway',sans-serif;font-size:14px;color:#65675e;text-align:center;}
+a{color:#65675e;}
+h1,h2,h3{font-family:'Open Sans Bold';text-transform:uppercase;margin-bottom:0;}
+h1{font-size:32px;}
+h2{font-size:150px;}
+p{font-size:22px;margin-bottom:15px;}
+
+/* layout */
+nav{margin:0 auto;width:180px;}
+nav a{float:left;display:block;margin:0 5px;border-radius:50%;background:#fff;height:50px;width:50px;}
+.fa{line-height:50px;}

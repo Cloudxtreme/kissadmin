@@ -51,12 +51,12 @@ input[type="button"] {background-color:#fff;border:0;color:#555;height:30px;line
 /* table */
 table{border-collapse:initial;border-top:10px solid #fff;margin-bottom:15px;}
 tr{background-color:#fff;}
-tr:nth-child(even) {background-color:#f9f9f9;}
+tr.deleted{background-color:#fcf8e3 !important;}
+tr:nth-child(even){background-color:#f9f9f9;}
 tr:hover {background-color:#eee !important;}
 td,th{border-right:1px solid #ddd;border-bottom:1px solid #ddd;padding:6px 10px;}
-td:first-child,th:first-child{border-left:1px solid #ddd;}
+td:first-child,th:first-child{border-left:1px solid #ddd;padding-left:10px;}
 th{border-top:1px solid #ddd;border-bottom:2px solid #ddd;}
-th input[type="checkbox"],td input[type="checkbox"]{position:relative;top:2px;left:12px;}
 
 /* header */
 header{height:auto;background:#fff;margin-bottom:20px;width:100%;font-size:14px;}
